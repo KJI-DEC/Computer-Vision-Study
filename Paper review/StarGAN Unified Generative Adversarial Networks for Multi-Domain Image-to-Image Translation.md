@@ -11,7 +11,7 @@
 
 ### StarGAN
 
-![Untitled](StarGAN%20Unified%20Generative%20Adversarial%20Networks%20fo%20d81010985d36476797bfffa20e15b48e/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/71377968/135740323-f3500746-9fc7-4797-9b46-1be75bc22407.png)
 
 - Multi-Domain Image-to-Image Translation
     - 여러 도메인간의 매핑을 학습하는 single Generator를 학습시키는 것이 목표
@@ -24,7 +24,7 @@
 
     → 모두 합친 Full objective
 
-![Untitled](StarGAN%20Unified%20Generative%20Adversarial%20Networks%20fo%20d81010985d36476797bfffa20e15b48e/Untitled%201.png)
+![Untitled](https://user-images.githubusercontent.com/71377968/135740330-74a47ed8-9cb5-4065-988b-7cae03a6691e.png)
 
 - 다른 label을 가지고 있는 여러개의 dataset을 동시에 처리할 수 있음
     - 다만, dataset에서 label 정보가 부분적으로 보임 → 각 dataset마다 label이 서로 다름 → 해결: *Mask vector*
@@ -35,15 +35,15 @@
 
 - DIAT, CycleGAN, IcGAN 모델 비교
 
-![Untitled](StarGAN%20Unified%20Generative%20Adversarial%20Networks%20fo%20d81010985d36476797bfffa20e15b48e/Untitled%202.png)
+![Untitled](https://user-images.githubusercontent.com/71377968/135740337-b2e45ef8-066e-4035-99ef-59d60e48a376.png)
 
 - CelebA에 대한 결과 - StarGAN이 타 모델에 비해 이미지의 퀄리티가 더 좋은 것을 확인할 수 있음
 
-![Untitled](StarGAN%20Unified%20Generative%20Adversarial%20Networks%20fo%20d81010985d36476797bfffa20e15b48e/Untitled%203.png)
+![Untitled](https://user-images.githubusercontent.com/71377968/135740355-167250b1-30ea-46cc-bb18-35b20dad97eb.png)
 
 - RaFD에 대한 결과 - StarGAN이 더 자연스러운 이미지를 생성함. 특히 IcGAN의 경우 personal identity를 그대로 가져오지 못함
 
-![Untitled](StarGAN%20Unified%20Generative%20Adversarial%20Networks%20fo%20d81010985d36476797bfffa20e15b48e/Untitled%204.png)
+![Untitled](https://user-images.githubusercontent.com/71377968/135740359-a8f597a6-9f4b-40e6-9c23-043580bd444a.png)
 
 - Mask vector에 대한 실험 결과 - mask vector를 반대로 둔 것과 바르게 둔 것을 비교한 것임. 윗줄은 바꾸고자 했던 것이 그대로 바뀌었으나 아랫줄은 원래 바꾸고자 했던 label이 무시되고 오히려 young을 old로 바꾼 것이 보임. → mask vector가 제대로 학습된 것을 확인 가능함
 
