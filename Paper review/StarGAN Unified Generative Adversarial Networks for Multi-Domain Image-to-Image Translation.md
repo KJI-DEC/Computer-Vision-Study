@@ -7,7 +7,7 @@
 - `multi-domain` , `image-to-image translation`
     - 하나의 이미지와 모델만을 가지고 한꺼번에 많은 도메인을 처리할 수 있음
 - cycleGAN과 유사한 구조 → classification 부분, domain 정보가 추가됨
-- `Mask vector`
+- `Mask vector`: 특정 label에 집중
 
 ### StarGAN
 
